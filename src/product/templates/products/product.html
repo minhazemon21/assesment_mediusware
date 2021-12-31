@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<style type="text/css">
+		.form-inline{
+			margin-right: 5rem;
+		}
+		.btn-secondary{
+			background-color: #fff !important;
+			color: black !important;
+			border-color: #ced4da !important;
+
+		}
+
+	</style>
+	<h4>Product</h4>
+	<div class="card" style="width: -webkit-fill-available; height: 32rem">
+		<div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	 <!--  <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button> -->
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <!--  <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#">Disabled</a>
+	      </li>
+	    </ul> -->
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Product Title" aria-label="Search">
+<!-- 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ -->	    </form>
+ 			<form class="form-inline my-2 my-lg-0 dropdown show">
+ 				<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    red
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  	<button class="dropdown-item" type="button">Color</button>
+    <button class="dropdown-item" type="button">red</button>
+    <button class="dropdown-item" type="button">green</button>
+    <button class="dropdown-item" type="button"><blockquote></blockquote></button>
+  </div>
+</div>
+
+<!-- 	      <input class="form-control mr-sm-2" type="search" placeholder="Red" aria-label="Search">
+ -->
+<!-- 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ -->	    </form>
+
+ 			<form class="form-inline my-2 my-lg-0">
+ 				<p style=" border: 1px solid #cdbdbd; height: 36px; background: #d5dce3; /* margin-top: 13px; */ padding-top: 3px; margin-top: 13px; ">Price Range</p>
+	      <input class="form-control mr-sm-2" type="search" placeholder="From" aria-label="Search" style="width: 5rem">
+	      	      <input class="form-control mr-sm-2" type="search" placeholder="To" aria-label="Search" style="width: 5rem; margin-left: -9px">
+
+<!-- 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ -->	    </form>
+ 			<form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="mm/dd/yyyy" aria-label="Search">
+<!-- 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ -->	    </form>
+
+ 		<form class="form-inline my-2 my-lg-0">
+ 			<i class="fa fa-search" style="font-size:36px"></i>
+<!-- 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ -->	    </form>
+	  </div>
+
+	</nav>
+
+</div>
+<div>
+	<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col" style="width: 5px">#</th>
+      <th scope="col" style="width: 1rem">Title</th>
+      <th scope="col" style="width: 40rem">Description</th>
+      <th scope="col" style="width: 103px">Varient</th>
+      <th scope="col" style="width: 1rem"></th>
+      <th scope="col" style="width: 1rem"></th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Prodict name created 8 hours ago</td>
+      <td>t is long Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+      <td><b>red / xl /</b><br> <b>red / sm</b><br>show more</td>
+      <td><b>Price:150.00<br>Price:15.00 <b/></td>
+      	<td>InStack:150.00 <br> InStack:54.00</td>
+      	<td><p style=" border: 1px solid; width: 46px; background: #6eeb6e; color: white; text-align: center; ">Edit</p></td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Prodict name created 8 hours ago</td>
+      <td>t is long Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+      <td><b>red / xl /</b><br> <b>red / sm</b><br>show more</td>
+      <td><b>Price:150.00<br>Price:15.00 <b/></td>
+      	<td>InStack:150.00 <br> InStack:54.00</td>
+      	<td><p style=" border: 1px solid; width: 46px; background: #6eeb6e; color: white; text-align: center; ">Edit</p></td>
+    </tr>
+   
+    
+  </tbody>
+</table>
+</div>
+</div>
+
+<div>
+	<p>Showing 1 to 2 out of 7</p>
+	<nav aria-label="Page navigation example" style="float: right;">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+</body>
+</html>
